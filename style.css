@@ -92,9 +92,10 @@
 }
 
 .hero-img{
-  background:#a9bdd6;
-  height:350px;
-  border-radius:4px;
+ 
+   max-width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
 
@@ -303,6 +304,7 @@
   line-height:1.2;
   margin-bottom:20px;
   color: #000;
+  
 }
 
 .customise p{
@@ -440,15 +442,11 @@ border:none;
 .work-btn{
   background: #4a90e2;
     color: white;
-    padding: 10px 24px;
+    padding: 15px 15px;
     border-radius: 8px;
-    
     margin-left: 15px;
     /* margin: -6px; */
-    width: 10vw;   
-    /* display: flex; */
-    /* justify-content: center;
-    align-content: center; */
+    width: 20vw;
 }
 
 
