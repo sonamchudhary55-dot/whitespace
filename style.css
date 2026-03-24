@@ -442,13 +442,15 @@ border:none;
 }
 
 .work-btn{
-  background: #4a90e2;
-    color: white;
-    padding: 15px 15px;
-    border-radius: 8px;
-    margin-left: 15px;
-    /* margin: -6px; */
-    width: 20vw;
+ background: #4a90e2;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-left: 15px;
+
+  width: auto;              
+  display: inline-block;    
+  white-space: nowrap;    
 }
 
 
@@ -468,11 +470,14 @@ border:none;
       text-decoration-color: #ffc107;
     }
     .hero data img {
-      max-width: 100%;
-      height: auto;
+      width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
     }
     .container-data{
-      padding:100px;
+      padding:20px;
     }
  
 
